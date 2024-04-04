@@ -33,6 +33,8 @@ COPY --from=build /usr/src/app/prisma ./prisma
 
 RUN pnpm prisma generate
 
-EXPOSE 	3333
+EXPOSE 3333
 
 CMD [ "pnpm", "start" ]
+
+
