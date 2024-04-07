@@ -1,6 +1,9 @@
 node_modules
 .env
 dist
+<<<<<<< HEAD
 .tfvars
 .tf
 .tfstate
+=======
+>>>>>>> parent of b54918d (aula 2)
