@@ -31,6 +31,8 @@ jobs:
     - name: Push image 
       run: |
         docker push enoqueneres/nlw.service.passin:${{ steps.generate_sha.outputs.sha }}
+        docker tag enoqueneres/nlw.service.passin:${{ steps.generate_sha.outputs.sha }} enoqueneres/nlw.service.passin:latest
+        docker push enoqueneres/nlw.service.passin:latest
 
 
 
